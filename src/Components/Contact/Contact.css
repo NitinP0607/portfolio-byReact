@@ -1,0 +1,77 @@
+.contact-container{
+    width: 100%;
+    padding: 30px;
+    min-height: 100vh;
+    background-color: rgb(163, 184, 184);
+}
+.contact-container h1{
+    font-size: 3.5rem;
+    padding: 20px;
+    color: #414542;
+}
+.info-body{
+    padding: 20px;
+    width: 100%;
+    background-color: antiquewhite;
+    border: none;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.para{
+    padding: 10px;
+    font-size: 25px;
+    width: 40%;
+    text-align: justify;
+    line-height: 1.8;
+}
+.contact{
+    padding: 30px;
+    width: 30%;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    background-color: aliceblue;
+    border: none;
+    border-radius: 15px;
+}
+.contact:hover{
+    box-shadow: 5px 5px 20px 2px rgba(0, 0, 0, 0.9);
+}
+.linkedin,
+.git-hub ,
+.mail ,
+.port {
+    display: flex;
+    text-decoration: underline;
+    text-align: justify;
+    gap: 30px;
+    font-size: 25px;
+    font-weight: 600;
+}
+.linkedin a,
+.git-hub a,
+.mail a,
+.port a{
+    text-decoration: none;
+   
+}
+@media screen and (max-width: 920px){
+    .info-body{
+        flex-direction: column;
+        padding: 15px;
+
+    }
+    .para{
+        width: 100%;
+        padding: 10px;
+    }
+    .contact{
+        width: 100%;
+        padding: 10px;
+    }
+}

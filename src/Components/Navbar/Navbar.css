@@ -1,0 +1,84 @@
+.navbar{
+    height: 5rem;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(69, 116, 122);
+}
+.navbar h2{
+    font-size: 3.5rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(0, 97, 44);
+    font-weight: 900;
+    cursor: pointer;
+    padding-left: 40px;
+    
+    
+}
+.navbar a{
+    text-decoration: none;
+}
+.desktop-menu ul{
+    display: flex;
+    margin: 1rem;
+    
+}
+.desktop-menu ul li a:hover{
+    color: rgb(78, 78, 78);
+    padding-bottom: 0.3rem;
+    transition: 0.5s;
+    color: rgb(88, 88, 88);
+    border-bottom: 3px solid rgb(100, 100, 100);
+
+
+}
+.desktop-menu ul li{
+    list-style: none;
+    margin: 0 1rem;
+    cursor: pointer;
+}
+.desktop-menu ul li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 1.8rem;
+    font-weight: 600;
+
+}
+.desktop-menu-btn img{
+    object-fit: cover;
+    width: 1.2rem;
+}
+.desktop-menu-btn{
+    border: none;
+    height: 3.5rem;
+    width:130px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    background-color: rgb(59, 126, 111);
+    color: rgb(0, 0, 0);
+    border-radius: 2rem;
+    font-size: 1.0rem;
+    font-weight: 800;
+    cursor: pointer;
+    padding: 5px;
+}
+.desktop-menu-btn:hover{
+    border: 1px solid grey;
+}
+@media screen and (max-width: 920px){
+    .desktop-menu ul{
+        padding-top: 150px;
+        flex-direction: column;
+        gap: 20px;
+        background-color: antiquewhite;
+        height: 50vh;
+
+    }
+}

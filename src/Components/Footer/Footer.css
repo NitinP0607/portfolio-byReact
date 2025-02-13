@@ -1,0 +1,20 @@
+.footer-container{
+    width: 100%;
+    text-align: center;
+}
+.foot-main{
+    width: 100%;
+    background-color: rgb(30, 14, 70);
+    padding: 10px;
+    color: rgb(111, 109, 150);
+    font-size: 15px;
+}
+.foot-main h3{
+    cursor: pointer;
+}
+.foot-main h3:hover{
+    color: #fff;
+    font-size: 1.3rem;
+    font-weight: 600;
+    transition: 0.5s ease-in-out;
+}

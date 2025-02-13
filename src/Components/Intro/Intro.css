@@ -1,0 +1,148 @@
+#intro{
+    height: 100vh;
+    width: 100%;
+    padding: 5rem 2rem 5rem 2rem;
+    margin: 0 auto;
+    overflow: hidden;
+    display: flex;
+    background-color: rgb(163, 184, 184);
+    justify-content: space-around;
+}
+#intro img{
+    position: relative;
+    right: 15px;
+}
+.intro-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh;
+    width: 100%;
+}
+.hello{
+    font-size: 4.5rem;
+    font-weight: 600;
+    color: rgb(20, 40, 53);
+}
+.intro-text{
+    font-size: 4.5rem;
+    font-weight: 500;
+    color: rgb(5, 5, 5);
+}
+.name{
+    color: rgb(27, 5, 27);
+    font-size: 4.5rem;
+    font-weight: 700;
+}
+.intro-para{
+    font-size: 25px;
+    font-weight: 500;
+}
+.intro-content a{
+    margin-top: 2rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 1rem 2rem;
+    border-radius: 3rem;
+    border: none;
+    background: rgb(143, 142, 143);
+    color: rgb(26, 24, 24);
+    cursor: pointer;
+}
+.btnImg{
+    width: 1.5rem;
+    cursor: pointer;
+}
+.btn{
+    border: none;
+    font-size: 1.6rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+.skills-container{
+    background-color: rgb(163, 184, 184);
+    width: 100%;
+    padding: 55px 75px 55px 75px;
+
+}
+.skills-container h3{
+    width: 100%;
+    color: #1a2254;
+    text-align: center; 
+    font-size: 3.5rem;
+}
+.left-skills div h6:hover,
+.right-skills div h6:hover{
+    color: rgb(69, 53, 85);
+    cursor: pointer;
+    transition: 0.5s;
+}
+.left-skills div h6,
+.right-skills div h6{
+    font-size: 1.1rem;
+    color: #162452;
+}
+.left-skills{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+    background-color: rgb(206, 206, 206);
+    border: 1px solid #162452;
+    border-radius: 15px;
+    padding: 25px;
+    border: none;
+}
+.right-skills{
+    width: 40%;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    background-color: rgb(206, 206, 206);
+    border: 1px solid #162452;
+    border-radius: 15px;
+    padding: 25px;
+    border: none;
+    box-shadow: 5px 5px 20px 2px rgba(0, 0, 0, 0.3);
+}
+.right-skills:hover,
+.left-skills:hover{
+    box-shadow: 5px 5px 20px 2px rgba(0, 0, 0, 0.3);
+    transition: 0.5s;
+    z-index: 1;
+    background-color: rgb(182, 182, 182);
+}
+
+.skills{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    
+}
+@media screen and (max-width: 920px) {
+    #intro{
+        padding: 0;
+    }
+    .intro-content{
+        display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh;
+    width: 100%;
+    }
+    .intro-content img{
+        padding-right: 20px;
+    }
+    .intro-text,
+    .name{
+        font-size: 2.5rem;
+    }
+}

@@ -1,0 +1,95 @@
+.about-body{
+    width: 100%;
+    background-color: rgb(163, 184, 184);
+   padding: 20px;   
+    display: flex;
+    flex-direction: column;
+}
+.top-about{
+    padding: 35px;
+    width: 100%;align-items: center;
+    
+   
+}
+.certify{
+    margin: 10px;
+}
+.certification{
+    display: flex;
+    margin-bottom: 20px;
+    cursor: pointer;
+    width: 100%; 
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(250, 253, 255);
+   
+}
+.certification:hover{
+    box-shadow: 5px 5px 20px 2px rgba(0, 0, 0, 0.3);
+}
+.certification h2{
+    width: 100%;
+    font-size: 1.5rem;
+    color: rgb(42, 42, 85);
+}
+.certification img{
+    width: 150px;
+    height: 250px;
+    border-radius: 10px;
+    border: none;
+}
+
+.about-body h1{
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+.text-top{
+    color: rgb(20, 17, 43);
+}
+.bottom-about{
+    width: 100%;
+    padding: 25px;
+   
+}
+.ab-bt{
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.frelancing-contact{
+    display: flex;
+    flex-direction: column;
+    background-color: #adabab;
+    border-radius: 25px;
+    padding: 40px;
+    gap: 9px;
+    width: 60%;
+}
+.frelancing-contact p{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.service a{
+    text-decoration: none;
+    cursor: pointer;
+   
+    border: none;
+    border-radius: 25px;
+}
+.service a img{
+    width: 150px;
+    border: none;
+    border-radius: 20px;
+    
+}
+.service a img:hover{
+    box-shadow: 5px 5px 30px 2px rgba(0, 0, 0, 0.3);
+}
+.frelancing-contact:hover{
+    box-shadow: 5px 5px 20px 2px rgba(0, 0, 0, 0.3);
+}
