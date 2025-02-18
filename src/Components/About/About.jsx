@@ -5,6 +5,8 @@ import js from "../../assets/JS.jpeg"
 import node from "../../assets/node_JS.png"
 import { Link } from 'react-router-dom'
 import indi from "../../assets/indication.avif"
+import javas from "../../assets/java1.jpeg"
+
 const About = () => {
   return (
     <div className='about-body'>
@@ -35,6 +37,14 @@ const About = () => {
             create middleware</span> <br />
           </div>
           <img src={node} alt="" />
+        </div>
+        <div className="certification">
+          <div className="certify">
+          <h2>Certification in <p style={{color:"#1d211e", fontSize:"2.0rem"}}>Java Developer from Infosys Springbord </p></h2>
+          <span style={{color:"#190c24",fontSize:"1.5rem"}}>Having deep knowlwdge of Data Structures and Algorithm 
+             in Java ,Having Logic Building Ability.</span> <br />
+          </div>
+          <img src={javas} alt="" />
         </div>
       </div>
       <div className="bottom-about">

@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 import contact_img from "../../assets/contact.png"
 
 const Navbar = () => {
-  const [display,setDisplay] = React.useState(true);
+  const [display,setDisplay] = React.useState(false);
 
   return (
     <nav className="navbar">

@@ -1,13 +1,19 @@
 .about-body{
     width: 100%;
     background-color: rgb(163, 184, 184);
-   padding: 20px;   
+    padding: 20px;   
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 .top-about{
     padding: 35px;
-    width: 100%;align-items: center;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #586c8c;
+    border-radius: 25px;
     
    
 }
@@ -18,7 +24,7 @@
     display: flex;
     margin-bottom: 20px;
     cursor: pointer;
-    width: 100%; 
+    width: 90%; 
     justify-content: space-between;
     align-items: center;
     padding: 10px;
@@ -30,7 +36,7 @@
     box-shadow: 5px 5px 20px 2px rgba(0, 0, 0, 0.3);
 }
 .certification h2{
-    width: 100%;
+    width: 80%;
     font-size: 1.5rem;
     color: rgb(42, 42, 85);
 }
@@ -44,12 +50,14 @@
 .about-body h1{
     font-size: 2.5rem;
     font-weight: 600;
+    padding: 20px;
+    align-items: flex-start;
 }
 .text-top{
     color: rgb(20, 17, 43);
 }
 .bottom-about{
-    width: 100%;
+    width: 90%;
     padding: 25px;
    
 }

@@ -1,9 +1,46 @@
 .contact-container{
     width: 100%;
-    padding: 30px;
+    padding: 50px;
     min-height: 100vh;
     background-color: rgb(163, 184, 184);
 }
+.contact-container h2{
+    padding: 20px;
+}
+.blog{
+    width: 100%;
+    padding: 50px;
+    background-color: aliceblue;
+    border: none;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+   
+    
+    gap: 20px;
+}
+.blog p{
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: rgb(92, 95, 97);
+}
+.bot-blog{
+    padding: 25px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+}
+.bot-blog img{
+    width: 30%;
+    height: 300px;
+    border-radius: 15px;
+    border: none;
+    box-shadow: 5px 5px 20px 2px rgba(0, 0, 0, 0.9);
+
+}
+
 .contact-container h1{
     font-size: 3.5rem;
     padding: 20px;
@@ -27,9 +64,9 @@
     line-height: 1.8;
 }
 .contact{
-    padding: 30px;
-    width: 30%;
-    height: 350px;
+    padding: 10px;
+    width: 35%;
+    height: 400px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -47,9 +84,10 @@
 .mail ,
 .port {
     display: flex;
+    
     text-decoration: underline;
     text-align: justify;
-    gap: 30px;
+    gap: 20px;
     font-size: 25px;
     font-weight: 600;
 }
@@ -58,12 +96,13 @@
 .mail a,
 .port a{
     text-decoration: none;
+    color: rgb(95, 95, 95);
    
 }
-@media screen and (max-width: 920px){
+@media screen and (max-width: 900px){
     .info-body{
         flex-direction: column;
-        padding: 15px;
+        padding: 25px;
 
     }
     .para{
@@ -74,4 +113,12 @@
         width: 100%;
         padding: 10px;
     }
+    .bot-blog{
+        flex-direction: column;
+        align-items: center;
+    }
+    .bot-blog img{
+       width: 400px;
+    }
+    
 }

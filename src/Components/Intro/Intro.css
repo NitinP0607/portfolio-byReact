@@ -5,7 +5,7 @@
     margin: 0 auto;
     overflow: hidden;
     display: flex;
-    background-color: rgb(163, 184, 184);
+    background-color: rgb(212, 212, 212);
     justify-content: space-around;
 }
 #intro img{
@@ -144,5 +144,8 @@
     .intro-text,
     .name{
         font-size: 2.5rem;
+    }
+    .btnImg{
+        width: 2.2rem;
     }
 }

@@ -118,7 +118,7 @@ const Intro = () => {
         <br />
         </div>
         <div>
-        <h6>NEST JS(A React Famework)</h6>
+        <h6>JAVA & DSA ( Logic Building )</h6>
         <i className="fa-solid fa-star"></i>
         <i className="fa-solid fa-star"></i>
         <i className="fa-solid fa-star"></i>

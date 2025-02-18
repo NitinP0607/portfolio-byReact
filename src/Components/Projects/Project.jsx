@@ -4,13 +4,15 @@ import "./Project.css"
 import gemini from "../../assets/gemini-clone.png"
 import vannila from "../../assets/vannila.png"
 import profile from "../../assets/profile_pic.png"
+import ecom from "../../assets/ecom1.jpg"
 
 const Project = () => {
   return (
     <div className="project-container">
       <h1>Here are Some of Sample Projects</h1>
-     <div className="projects">
-     <div className="profile_img">
+      <div className="projects-container">
+      <div className="projects">
+     <div className="profile_img project">
         <img src={profile} alt="" />
       </div>
       <div className="project">
@@ -30,8 +32,18 @@ const Project = () => {
         <Link to={`https://nitinp0607.github.io/codeConductor/`}><span style={{color:"#033030",fontSize:"1.0rem"}}>Info</span></Link>
         </div>
       </div>
-      
      </div>
+     <div className="projects">
+     <div className="project">
+        <h2>Ecommerce Website</h2>
+      <img src={ecom} alt="" />
+        <div className="project-info">
+        <p style={{color:"#0a0330",fontSize:"1.0rem",textAlign:"center",fontWeight:"700"}}>Building block HTML,CSS,JAVASCRIPT</p>
+        <Link to={`https://nitinp0607.github.io/Ecom-RO/`}><span style={{color:"#033030",fontSize:"1.0rem"}}>Live</span></Link>
+        </div>
+      </div>
+     </div>
+      </div>
     </div>
   )
 }
