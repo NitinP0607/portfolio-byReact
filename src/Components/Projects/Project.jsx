@@ -5,6 +5,7 @@ import gemini from "../../assets/gemini-clone.png"
 import vannila from "../../assets/vannila.png"
 import profile from "../../assets/profile_pic.png"
 import ecom from "../../assets/ecom1.jpg"
+import proj from "../../assets/proj4.avif"
 
 const Project = () => {
   return (
@@ -40,6 +41,15 @@ const Project = () => {
         <div className="project-info">
         <p style={{color:"#0a0330",fontSize:"1.0rem",textAlign:"center",fontWeight:"700"}}>Building block HTML,CSS,JAVASCRIPT</p>
         <Link to={`https://nitinp0607.github.io/Ecom-RO/`}><span style={{color:"#033030",fontSize:"1.0rem"}}>Live</span></Link>
+        </div>
+      </div>
+      <div className="project">
+        <h2>Freelancing-Project</h2>
+      <img src={proj} alt="" />
+        <div className="project-info">
+        <p style={{color:"#0a0330",fontSize:"1.0rem",textAlign:"center",fontWeight:"700"}}>Landing Page for TechnoX IT <br /> 
+        Freelancing Project </p>
+        <Link to={`https://nitinp0607.github.io/landing-page/`}><span style={{color:"#033030",fontSize:"1.0rem"}}>Live</span></Link>
         </div>
       </div>
      </div>

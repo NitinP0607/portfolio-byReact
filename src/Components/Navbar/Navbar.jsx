@@ -13,7 +13,7 @@ const Navbar = () => {
         <div className="desktop-menu">
             {
               display ?
-              <ul>
+              <ul className='mobile'>
                 <li><Link to="/">Home</Link></li>
                 <li><Link to="/about">About</Link></li>
                 <li><Link to="/projects">Projects</Link></li>

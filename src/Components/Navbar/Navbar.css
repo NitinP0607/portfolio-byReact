@@ -80,5 +80,8 @@
         left: 0;
         background-color: antiquewhite;
     }
+    .mobile{
+        display: none;
+    }
 
 }
