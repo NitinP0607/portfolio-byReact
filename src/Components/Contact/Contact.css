@@ -3,20 +3,16 @@
     padding: 50px;
     min-height: 100vh;
     background-color: rgb(163, 184, 184);
-}
-.contact-container h2{
-    padding: 20px;
+    
 }
 .blog{
     width: 100%;
-    padding: 50px;
+    padding: 40px;
     background-color: aliceblue;
     border: none;
     border-radius: 15px;
     display: flex;
     flex-direction: column;
-   
-    
     gap: 20px;
 }
 .blog p{
@@ -53,7 +49,7 @@
     border: none;
     border-radius: 15px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 .para{
@@ -84,7 +80,6 @@
 .mail ,
 .port {
     display: flex;
-    
     text-decoration: underline;
     text-align: justify;
     gap: 20px;
@@ -99,15 +94,21 @@
     color: rgb(95, 95, 95);
    
 }
-@media screen and (max-width: 900px){
+@media (max-width: 900px){
+    .contact-container{
+        padding: 20px;
+    }
     .info-body{
         flex-direction: column;
-        padding: 25px;
+        padding: 10px;
 
     }
     .para{
         width: 100%;
         padding: 10px;
+    }
+    .contact-container h1{
+        font-size: 30px;
     }
     .contact{
         width: 100%;
@@ -116,9 +117,17 @@
     .bot-blog{
         flex-direction: column;
         align-items: center;
+        padding: 10px;
+    
     }
     .bot-blog img{
-       width: 400px;
+       width: 350px;
+    }
+    .blog{
+        padding: 20px;
+    }
+    .blog p{
+        font-size: 2.0rem;
     }
     
 }

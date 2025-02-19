@@ -1,7 +1,6 @@
 #intro{
-    height: 100vh;
+    min-height: 100vh;
     width: 100%;
-    padding: 5rem 2rem 5rem 2rem;
     margin: 0 auto;
     overflow: hidden;
     display: flex;
@@ -9,8 +8,7 @@
     justify-content: space-around;
 }
 #intro img{
-    position: relative;
-    right: 15px;
+   
 }
 .intro-content{
     display: flex;
@@ -19,6 +17,7 @@
     align-items: flex-start;
     height: 100vh;
     width: 100%;
+    
 }
 .hello{
     font-size: 4.5rem;
@@ -126,9 +125,11 @@
     padding: 10px;
     
 }
-@media screen and (max-width: 920px) {
+@media (max-width: 920px) {
     #intro{
         padding: 0;
+        flex-direction: column;
+        align-items: center;
     }
     .intro-content{
         display: flex;
@@ -137,9 +138,11 @@
     align-items: flex-start;
     height: 100vh;
     width: 100%;
+    padding: 15px;
+    font-size: 1.5rem;
     }
-    .intro-content img{
-        padding-right: 20px;
+    .bg{
+        width: 85%;
     }
     .intro-text,
     .name{
@@ -147,5 +150,20 @@
     }
     .btnImg{
         width: 2.2rem;
+    }
+    .skills{
+        flex-direction: column;
+        width: 100%;
+        padding: 0;
+        gap: 30px;
+    }
+    .left-skills,
+    .right-skills{
+        width: 100%;
+        gap: 10px;
+        padding: 10px;
+    }
+    .skills-container h3{
+        font-size: 2.5rem;
     }
 }

@@ -9,7 +9,7 @@ import btn from "../../assets/hireme.png"
 const Intro = () => {
   return (
     <>
-    <section id="intro">
+    <div id="intro">
         <div className="intro-content">
             <span className="hello">Hello</span>
             <span className="intro-text"> I'm  <span className="name">Nitin Patel</span>
@@ -18,7 +18,7 @@ const Intro = () => {
             <Link to={"/contact"}><button className='btn'><img src={btn} alt="" className='btnImg'/>Hire me</button></Link>
         </div>
         <img className='bg' src={bg} alt="" />
-    </section>
+    </div>
     <div className="skills-container">
       <h3>A Skilled and Passionate <p style={{fontSize:"3.5rem", color:"#0a0330"}}>
         <marquee behavior="alternate" direction="">Full Stack Web Developer</marquee>

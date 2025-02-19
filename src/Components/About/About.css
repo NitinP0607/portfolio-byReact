@@ -101,3 +101,29 @@
 .frelancing-contact:hover{
     box-shadow: 5px 5px 20px 2px rgba(0, 0, 0, 0.3);
 }
+@media (max-width: 920px){
+    .certification{
+        flex-direction: column;
+    }
+    .top-about{
+        padding: 10px;
+    }
+    .certification img{
+        width: 300px;
+    }
+    .about-body{
+        padding: 10px;
+    }
+    .bottom-about{
+        padding: 10px;
+        width: 100%;
+    }
+    .ab-bt{
+        flex-direction: column;
+        padding: 15px;
+    }
+    .frelancing-contact{
+        width: 100%;
+        padding: 10px;
+    }
+}
